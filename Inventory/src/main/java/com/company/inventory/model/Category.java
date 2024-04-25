@@ -13,9 +13,12 @@ import lombok.Data;
 @Entity
 @Table(name="category")
 public class Category implements Serializable{
-
-	private static final long serialVersionUID = 1L;
-
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 53346491576034434L;
+	
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
